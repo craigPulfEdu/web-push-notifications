@@ -13,6 +13,28 @@ h1 {
     padding-bottom: 1em;
 }
 
+.buttons-container {
+    display : flex;
+    justify-content : center;
+    margin-top: 2em;
+}
+
+.button {
+    margin: 1em;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-notify {
+    background-color: cadetblue;
+    color: #faf4f4;
+    cursor: pointer;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 10px;
+    display: none;
+}
+
 .app-bar {
     width: 100%;
     background-color: #f4e04d;
